@@ -11,3 +11,5 @@ add_executable(prg7-3 example/circle/prg7-3.cpp)
 target_link_libraries(prg7-3  PRIVATE moduleCircle)
 
 add_executable(prg8-1 example/array/prg8-1.cpp)
+add_executable(prg8-4 example/circle/prg8-4.cpp)
+target_link_libraries(prg8-4  PRIVATE moduleCircle)
